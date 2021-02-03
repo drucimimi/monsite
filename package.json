@@ -1,0 +1,22 @@
+{
+  "name": "monsite",
+  "version": "1.0.1",
+  "description": "Un site qui présente mon parcours professionnel et mes réalisations effectuées en entreprise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./assets/sass/main.scss:./assets/public/css/style.css --style compressed",
+    "prefix": "postcss ./assets/public/css/style.css --use autoprefixer -d ./assets/public/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drucimimi/monsite.git"
+  },
+  "author": "Drucilla DEROCHE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drucimimi/monsite/issues"
+  },
+  "homepage": "https://github.com/drucimimi/monsite#readme",
+  "browserslist": "last 4 versions"
+}

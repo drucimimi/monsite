@@ -1,0 +1,31 @@
+.bloc_page{
+    @include display(flex);
+    flex-direction: column;
+    margin: 20px;
+}
+.titre-pro, .nom-projet {
+    text-decoration: underline;
+    margin-left: 30%;
+}
+.nom-projet{
+    margin-bottom: 10px;
+}
+.date-stage {
+    margin-left: 30%;
+    margin-bottom: 5px;
+}
+.titre-pro, .date-stage {
+    @include display(inline);
+}
+
+iframe{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 1024px){
+    iframe{
+        width: 600px;
+        height: 500px;
+    }
+}

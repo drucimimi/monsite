@@ -1,0 +1,80 @@
+#banniere_img{
+    @include display(none);
+}
+#menu-ico{
+    margin: 5px;
+}
+.nav .menu-content {
+    @include display(none);
+    position: absolute;
+    background-color: $menu-bgcolor;
+    min-width: 200px;
+    z-index: 1;
+    border: 5px solid #444;
+    border-radius: 4px 0 4px 4px;
+    height: 350px;
+    .nav__link {
+        @include display;
+        padding : 5px 0;
+        @include fontSize(15px);
+        text-decoration: none;
+        color: $color-primary;
+        &:hover{
+            color: $itemsMenuhover-color;
+            border-bottom: 3px solid $itemsMenuhover-color;
+        }
+    }
+    .nav__link--active{
+        font-weight: bold;
+    }
+}
+.nav:hover .menu-content{
+    @include display;
+}
+
+@media (min-width: 1024px){
+    #banniere_img{
+        @include display;
+        min-width: 100%;
+        height: 400px;
+        background: url("../images/informatique.jpg");
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    #banniere_desc{
+        position: absolute;
+        bottom: 0;
+        margin-left: 50%;
+        @include fontSize(30px);
+        font-style: italic;
+        color: #000;
+    }
+    #menu-ico {
+        @include display(none);
+    }
+    .nav{
+        margin-bottom: 50px;
+        .menu-content{
+            list-style-type: none;
+            background-color: black;
+            min-width: 100%;
+            height: 5%;
+            @include display(flex);
+            justify-content: space-around;
+            .nav__link{
+                @include fontSize(30px);
+            }
+            .nav__social{
+                @include display(flex);
+                align-items: center;
+                a{
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    .nav:hover .menu-content{
+        @include display(flex);
+    }
+} 

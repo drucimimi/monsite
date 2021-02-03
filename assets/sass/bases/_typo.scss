@@ -1,0 +1,29 @@
+body{
+  color: $color-primary;
+  font-family:"Trebuchet MS","Times New Roman",serif;
+}
+article, aside {
+    @include fontSize(15px);
+}
+aside h1{
+    @include fontSize(25px);
+}
+.formation{
+    font-style: italic;
+}
+.titre-pro, .nom-projet {
+    @include fontSize(15px);
+}
+.date-stage {
+    font-style: italic;
+    font-weight: normal;
+    @include fontSize;
+}
+@media (min-width: 1024px){
+    aside h1, .titre-pro, .nom-projet{
+        @include fontSize(30px);
+    }
+    article, aside, .date-stage{
+        @include fontSize(20px);
+    }
+}

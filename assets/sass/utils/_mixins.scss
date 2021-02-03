@@ -1,0 +1,6 @@
+@mixin fontSize($size: $sizeText){
+    font-size: $size;
+}
+@mixin display($type : $displayType){
+    display: $type;
+}

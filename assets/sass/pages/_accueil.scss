@@ -1,0 +1,15 @@
+section{
+    @include display(flex);
+    flex-direction: column;
+    padding: 30px;
+}
+p:first-child, .web{
+    font-weight: bold;
+}
+aside{
+    background-color: $aside-bgcolor;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px;
+}
