@@ -1,4 +1,4 @@
-# portolio
+# monsite
 C'est un site statique qui représente mon portfolio.
 
 ## Pour commencer
@@ -32,7 +32,7 @@ C'est un site statique qui représente mon portfolio.
 ### Installation
 Si vous souhaitez voir le site en ligne, sautez cette étape.
 
-Sinon, téléchargez le projet via GitHub ou en ligne de commande: git clone https://github.com/drucimimi/portfolio.git
+Sinon, téléchargez le projet via GitHub ou en ligne de commande: git clone https://github.com/drucimimi/monsite.git
 
 ## Démarrage
 Pour lancer le projet en local, lancer le fichier index.html avec votre navigateur web.
@@ -43,11 +43,11 @@ Atom - éditeur de texte
 HTML5/CSS3
 
 ## Versions
-Dernière version stable : 1.0
+Dernière version stable : 1.0.1
 
-Dernière version : 1.0
+Dernière version : 1.0.1
 
-Liste des versions : [Cliquer pour afficher](https://github.com/drucimimi/portfolio/tags)
+Liste des versions : [Cliquer pour afficher](https://github.com/drucimimi/monsite/tags)
 
 ## Auteurs
 Drucilla DEROCHE
